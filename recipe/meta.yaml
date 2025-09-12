@@ -32,6 +32,8 @@ test:
   imports:
     - kiwipy
     - kiwipy.rmq
+  commands:
+    - pip check
 
 about:
   home: https://github.com/aiidateam/kiwipy
