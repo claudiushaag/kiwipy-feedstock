@@ -29,6 +29,9 @@ requirements:
     - shortuuid
 
 test:
+  requires:
+    - python {{ python_min }}
+    - pip
   imports:
     - kiwipy
     - kiwipy.rmq
